@@ -1,0 +1,141 @@
+
+/*========= START OF JACK'S CSS =========*/
+body {
+	text-align: center;
+	background-color: #c6ebc9;
+	background-position: center;
+	font-family: Arial, Helvetica, sans-serif;
+	background: url('../images/contactBackJack.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.wrap {
+	margin-top: 70px;
+	color: #03506f;
+	text-transform: uppercase;
+}
+
+.wrap h1 {
+	font-size: 3vw;
+}
+
+.wrap h2, .social-media h3{
+	font-size: 2vw;
+	padding-bottom: 2%;
+}
+
+.contact-form h3{
+	font-size: 2vw;
+	text-align: left;
+}
+
+.contact-form {
+	margin: 0 30%;
+	background-color: white;
+	padding: 2% 2%;
+	border-radius: 20px;
+	border: 4px solid #a8dda8;
+	background-color: #f3fae2;
+}
+
+
+.form-fields {
+	width: 100%;
+	margin-bottom: 16px;
+	border-radius: 10px;
+	border-color: #f3fae2;
+}
+
+input {
+	height: 45px;
+}
+
+.submit {
+	background: #a8dda8;
+	border-color: #fff;
+	color: #fff;
+	font-size: 2vw;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 12px;
+	width: 30%;
+}
+	
+.submit:hover {
+	background-color: #03506f;
+	cursor: pointer;
+}
+
+
+.social-media {
+	text-align: center;
+	padding: 30px;
+}
+
+.social media h3 {
+	padding-left: 30px;	
+}
+	
+.fa-facebook {
+	padding-top: 10px;
+	background: #3B5998;
+	color: white;
+}
+	
+.fa-twitter {
+  padding-top: 10px;
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-reddit {
+  padding-top: 10px;
+  background: red;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.8 ;
+}
+
+.fa {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+.topScroll img {
+	fill: #000;
+	width: 80px;
+	height: 80px;
+}
+
+#btnScrollTop {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #a8dda8;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+	color: white;
+	outline: none;
+	cursor: pointer;
+	border: none;
+}
+	
+#btnScrollTop:active {
+	background: #a8dda8
+}
+/*=========== END OF JACK'S CSS ===========*/

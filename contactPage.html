@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Contact Us</title>
+	<link rel="shortcut icon" href="images/favicon.png">
+	<!-- Meta tags to enable bootstrap -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+		crossorigin="anonymous"></script>
+	
+		<!-- Bootstrap css file -->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Icon css file -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		
+		<!-- External css files -->		
+		<link href="css/Common.css" rel="stylesheet" type="text/css" /> 
+		
+		
+		<!-- external 3 styling files from us -->
+				
+		<link href="css/externalContact.css" rel="stylesheet" type="text/css"> 			<!-- This style sheet has been created by Jason Quinn-->
+	<!--<link href="css/externalContactTehseen.css" rel="stylesheet" type="text/css">    <!-- This css sheet is craeted by Tehseen Faisal-->
+	<!--<link href="css/externalContactJack.css" rel="stylesheet" type="text/css">		<!--This css sheet is created by Jack Shallow -->
+			
+			
+			<!-- Bootstrap js file -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+		
+		<!-- Custom JS file -->
+		<script type="text/javascript" src="js/contactJS.js" defer></script>
+		<!-- Custom js file -->
+		<script src="js/toTop.js" defer></script>
+	
+</head>
+
+<body>
+<!-- ========================= HEADER CONTENT ========================= -->
+		<header id="header" class="section-header py-4">
+			<div class="container-fluid">
+				<div class="logoside"> 
+					<img src="images/logo.jpg" id="logo" alt="New2U Logo"> 
+				</div>
+			</div>
+		</header> 
+
+<!-- ========================= NAVIGATION BAR CONTENT ========================= -->
+		<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+			<div class="container">
+				<a id="brand" class="navbar-brand" href="Index.html">New2U</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="main_nav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"> <a class="nav-link" href="Index.html">Home </a> </li>
+						<li class="nav-item dropdown">
+							<a class="nav-link  dropdown-toggle" data-toggle="dropdown"> Products </a>
+							<ul class="dropdown-menu dropdown-menu-right">
+								<li><a class="dropdown-item" href="ElectricalAppliances.html"> Electrical Appliances </a></li>
+								<li><a class="dropdown-item" href="FurnitureSub.html"> Furniture </a></li>
+								<li><a class="dropdown-item" href="Beauty&jewellery.html"> Beauty & Jewellery </a></li>
+							</ul>
+						</li>
+						<li class="nav-item"><a class="nav-link active" href="contactPage.html"> Contact Us </a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+<!-- ========================= TO TOP BUTTON ========================= -->		
+		<!--button hides when at top of page and changes color when you hold click (activate)-->
+<button id = "btnScrollTop" onclick = "topFunction()">
+	<i class = "material-icons">arrow_upward</i>
+</button>
+
+<!-- Form section --->
+	<div class = "wrap">
+		<h1> Have something to give away?</h1>
+		<h2>Contact us below</h2>
+	
+<!-- ========================= FORM CONTENT ========================= -->
+
+	<div class = "contact-form">
+	
+		<form id = "contact-form" method = "post" action = "mailto:best.updated.dealer@gmail.com" >
+			
+			<h3>Name</h3>
+			<input name = "name" type = "text" id = "name" class = "form-fields" placeholder = "Your Name*" ><br>
+			
+			<h3>Email</h3>
+			<input name = "email" type = "email" id = "email" class = "form-fields" placeholder = "Your Email*"><br>
+			
+			<h3>Message</h3>
+			<textarea name = "message" class = "form-fields" rows = "6" required> </textarea><br>
+			
+			<input type='submit' class ='submit' value='Submit' onclick	 = "validate()">
+			<input type='reset' class ='submit' value='Reset'>
+			
+		</form>
+
+	</div>
+
+<!-- ========================= SOCIAL MEDIA ========================= -->	
+	<div class = "social-media">
+
+		<a href ="https://www.facebook.com/" class = "fa fa-facebook"></a>
+		<a href ="https://twitter.com/?lang=en" class = "fa fa-twitter"></a>
+		<a href ="https://www.reddit.com/" class = "fa fa-reddit"></a>
+	
+	</div>
+
+	<div class="footer">
+		<i>Copyright &copy; 2020-21</i>.
+	</div>	
+</body>
+
+</html>

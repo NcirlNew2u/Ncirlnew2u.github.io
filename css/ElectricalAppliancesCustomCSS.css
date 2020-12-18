@@ -1,0 +1,100 @@
+/*============STYLE FOR ELECTRICAL APPLIANCES PAGE ================*/
+
+/*style for body*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3fae2;
+  background-image: url('../images/backgroundEA.png')
+}
+
+/*style for containers*/
+#mainContainer {
+	margin-top: 50px;
+}
+
+#titleContainer {
+	text-align: center;
+	border-radius: 20px;
+	margin-bottom: 50px;
+	color: #a8dda8;
+	border: 5px solid #a8dda8;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: white;
+	font-weight: bold;
+	padding: 10px;
+	padding-top: 15px;
+	background-size: 40%;
+}
+
+
+/*style for card containers*/
+.cardCustom {
+	margin-bottom: 20px;
+}
+
+.cardHeader {
+	background-color: #a8dda8 !Important;
+	color: white;
+	font-weight: bold;
+	border: none;
+	text-align: center;
+}
+
+.cardBorder {
+	border: none;
+}
+
+.cardFoot {
+	background-color: #f3fae2 !important;
+	border: none;
+	padding: 0 8%;
+}
+
+.cardBody {
+	padding: 0;
+}
+
+/*style for card and modal text info*/
+.info-headings {
+  font-weight: bold;
+}
+
+.info {
+  font-weight: normal;
+}
+
+/*style for closer look button*/
+.closerLook {
+	border-radius: 10px;
+	width: 60%;
+	margin: 2% 20%;
+	padding: 3% 3%;
+	border: 3px solid #f3fae2;
+	background-color: #a8dda8;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.closerLook:hover {
+	background-color: white;
+	border-color: #a8dda8;
+	color: #a8dda8;
+}
+
+/*style for modal containers*/
+.modalHeader {
+	border: none;
+	background-color: #a8dda8;
+	color: white;
+	font-weight: bold;
+}
+
+.modalFooter {
+	border: none;
+	background-color: #f3fae2;
+	font-weight: bold;
+}
+
+

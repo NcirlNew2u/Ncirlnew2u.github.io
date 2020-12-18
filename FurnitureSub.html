@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Furniture</title>
+	
+	<!-- tab icon logo -->
+	<link rel="shortcut icon" href="images/favicon.png">
+	
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+	crossorigin="anonymous"></script>
+	
+	<!-- Bootstrap css file -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+	<!-- Custom css file -->
+	<link href="css/externalFurniture.css" rel="stylesheet" type="text/css" > 
+	<link href="css/Common.css" rel="stylesheet" type="text/css" /> 
+	
+	<!-- Icon css file -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+	<!-- Bootstrap js file -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+
+	
+	<!-- Custom js file -->
+	<script type="text/javascript" src="js/furnitureJava.js" defer></script>
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
+
+</head>
+
+<body>
+
+
+<!-- navigation bar fixed to top of page -->
+<!-- ========================= HEADER CONTENT ========================= -->
+<header id="header" class="section-header py-4">
+	<div class="container-fluid">
+		<div class="logoside"> 
+			<img src="images/logo.jpg" id="logo"> 
+		</div>
+	</div>
+</header> 
+
+<!-- ========================= NAVIGATION BAR CONTENT ========================= -->
+		<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+			<div class="container">
+				<a id="brand" class="navbar-brand" href="Index.html">New2U</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="main_nav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"> <a class="nav-link" href="Index.html">Home </a> </li>
+						<li class="nav-item dropdown">
+							<a class="nav-link  dropdown-toggle active" data-toggle="dropdown"> Products </a>
+							<ul class="dropdown-menu dropdown-menu-right">
+								<li><a class="dropdown-item" href="ElectricalAppliances.html"> Electrical Appliances </a></li>
+								<li><a class="dropdown-item" href="FurnitureSub.html"> Furniture </a></li>
+								<li><a class="dropdown-item" href="Beauty&jewellery.html"> Beauty & Jewellery </a></li>
+							</ul>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="contactPage.html"> Contact Us </a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+<!--button hides when at top of page and changes color when you hold click (activate)-->
+<button id = "btnScrollTop" onclick = "topFunction()">
+	<i class = "material-icons">arrow_upward</i>
+</button>
+
+
+<!-- Categories -->
+
+<div class = "background"></div><br>
+<div class = "small-container">
+	<h1 class = "title">New2U Furniture Range</h1>
+</div>
+
+<div class = "categories">
+	<div id = "category-container">
+		<div class = "row">
+			<div class = "col-3 split">
+				<a href = "#section1">
+					<img src = "images/couch cat.jpg">
+				</a>
+			</div>
+			<div class = "col-3 split">
+				<a href = "#section2">
+					<img src = "images/tablecat.jpg">
+				</a>
+			</div>
+			<div class = "col-3 split">
+				<a href = "#section3">
+					<img src = "images/bedscat.jpg">
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Couch  -->
+<div class = "small-container">
+	<h1 class = "title">Couches</h1>
+	<div class ="section1" id = "section1"></div> <!-- Scroll location for couch image click in categories section -->
+	
+	
+		<div class = "col-4>">
+			<h2 class = "subTitle">Black Leather Couch</h2>
+				<div class = "image-container">
+					<img src = "images/couch.jpeg">
+				</div>
+			<h3 class = "heading">Location</h3>
+			<p class = "condition">Dublin</p>
+			<h3 class = "heading">Condition</h3>
+			<p class = "condition">A</p>
+			<h3 class = "heading">Email</h3>
+			<p class = "email" action =>BobsYourUncle@gmail.com</p>
+		</div>
+		
+		<span class = "hzLine"></span>
+		<div class = "col-4>">
+			<h2 class = "subTitle">White Leather Couch</h2>
+				<div class = "image-container">
+					<img src = "images/couch2.jpg">
+				</div>
+			<h3 class = "heading">Location</h3>
+			<p class = "condition">Dublin</p>
+			<h3 class = "heading">Condition</h3>
+			<p class = "condition">A</p>
+			<h3 class = "heading">Email</h3>
+			<p class = "email">MarysYourAuntie@gmail.com</p>
+		</div>
+		
+		<span class = "hzLine"></span>
+		<div class = "col-4>">
+			<h2 class = "subTitle">Navy Couch</h2>
+				<div class = "image-container">
+					<img src = "images/couch3.jpg">
+				</div>
+			<h3 class = "heading">Location</h3>
+			<p class = "condition">Dublin</p>
+			<h3 class = "heading">Condition</h3>
+			<p class = "condition">A</p>
+			<h3 class = "heading">Email</h3>
+			<p class = "email">SpotsYourDog@gmail.com</p>
+		</div>	
+	
+	
+</div>	
+
+<!-- Tables  -->
+<div class = "small-container">
+	<h1 class = "title">Tables</h1>
+	<div class ="section2" id = "section2"></div> <!-- Scroll location for couch image click in categories section -->
+	
+	
+		<div class = "col-4>">
+			<h2 class = "subTitle">Classic Oval Top Table</h2>
+				<div class = "image-container">
+					<img src = "images/table1.jpg">
+				</div>
+			<h3 class = "heading">Location</h3>
+			<p class = "condition">Wexford</p>
+			<h3 class = "heading">Condition</h3>
+			<p class = "condition">C</p>
+			<h3 class = "heading">Email</h3>
+			<p class = "email">TableGuy@gmail.com</p>
+		</div>
+		
+		<span class = "hzLine"></span>
+		<div class = "col-4>">
+			<h2 class = "subTitle">Small Square Top Table</h2>
+				<div class = "image-container">
+					<img src = "images/table2.jpeg">
+				</div>
+			<h3 class = "heading">Location</h3>
+			<p class = "condition">Offaly</p>
+			<h3 class = "heading">Condition</h3>
+			<p class = "condition">B</p>
+			<h3 class = "heading">Email</h3>
+			<p class = "email">AnotherTableGuy.com</p>
+		</div>
+		
+		<span class = "hzLine"></span>
+		<div class = "col-4>">
+			<h2 class = "subTitle">Large Square Top Table</h2>
+				<div class = "image-container">
+					<img src = "images/table3.jpg">
+				</div>	
+			<h3 class = "heading">Location</h3>
+			<p class = "condition">Dublin</p>
+			<h3 class = "heading">Condition</h3>
+			<p class = "condition">A</p>
+			<h3 class = "heading">Email</h3>
+			<p class = "email">YetAnotherTableGuy@gmail.com</p>
+		</div>
+		
+	
+</div>	
+
+
+<!-- Beds  -->
+<div class = "small-container">
+	<h1 class = "title">Beds</h1>
+	<div class ="section3" id = "section3"></div><!-- Scroll location for couch image click in categories section -->
+	
+		<div class = "col-4>">
+			<h2 class = "subTitle">Double bed</h2>
+				<div class = "image-container">
+					<img src = "images/beds1.jpg">
+				</div>
+			<h3 class = "heading">Location</h3>
+			<p class = "condition">Limerick</p>
+			<h3 class = "heading">Condition</h3>
+			<p class = "condition">A</p>
+			<h3 class = "heading">Email</h3>
+			<p class = "email">BedGuy@gmail.com</p>
+		</div>
+		
+		<span class = "hzLine"></span>
+		<div class = "col-4>">
+			<h2 class = "subTitle">King Size</h2>
+				<div class = "image-container">
+					<img src = "images/beds2.jpg">
+				</div>
+			<h3 class = "heading">Location</h3>
+			<p class = "condition">Dublin</p>
+			<h3 class = "heading">Condition</h3>
+			<p class = "condition">C</p>
+			<h3 class = "heading">Email</h3>
+			<p class = "email">AnotherBedGuy.com</p>
+		</div>
+		
+		<span class = "hzLine"></span>
+		<div class = "col-4>">
+			<h2 class = "subTitle">Queen Size</h2>
+				<div class = "image-container">
+					<img src = "images/beds3.jpg">
+				</div>	
+			<h3 class = "heading">Location</h3>
+			<p class = "condition">Meath</p>
+			<h3 class = "heading">Condition</h3>
+			<p class = "condition">B</p>
+			<h3 class = "heading">Email</h3>
+			<p class = "email">YetAnotherBedGuy@gmail.com</p>
+		</div>
+	
+</div>	
+<br><br>
+<div class = "background"></div>
+<div class="footer">
+	<i>Copyright &copy; 2020-21</i>.
+</div>	
+</body>
+
+</html>

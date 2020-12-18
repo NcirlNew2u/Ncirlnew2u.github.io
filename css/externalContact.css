@@ -1,0 +1,143 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: url(../images/contactBack.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: "Times New Roman";
+	
+}
+
+.wrap {
+	margin-top: 200px;
+	color: white;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+	border-width: 200px;
+	height: auto;
+}
+
+.contact-title h1 {
+	font-size: 32px;
+	line-height: 10px;
+}
+
+.contact-title h2{
+	font-size: 16px;
+}
+
+form {
+	margin-top: 50px;
+}
+
+.form-fields {
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 4px solid black;
+	color: #white;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+
+input {
+	height: 45px;
+}
+
+.submit {
+	background: #fcba03;
+	border-color: #fff;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 12px;
+}
+	
+.submit:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+
+.social-media {
+	text-align: center;
+	padding: 30px;
+}
+
+.social media h3 {
+	padding-left: 30px;	
+}
+	
+.fa-facebook {
+	padding-top: 10px;
+	background: #3B5998;
+	color: white;
+}
+	
+.fa-twitter {
+  padding-top: 10px;
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-reddit {
+  padding-top: 10px;
+  background: red;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.8 ;
+}
+
+.fa {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+	
+.topScroll img {
+	fill: #000;
+	width: 80px;
+	height: 80px;
+}
+
+#btnScrollTop {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #a8dda8;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+	color: white;
+	outline: none;
+	cursor: pointer;
+	border: none;
+}
+	
+#btnScrollTop:active {
+	background: #a8dda8
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,37 @@
+/*============This is the styling for the header, navbar and footer common on all pages================*/
+
+.navbar {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	clear: both;
+	background-color: #a8dda8;
+	color: white;
+}
+
+.logoside {
+	padding: 0 40%;
+}
+
+#logo {
+	width: 100%;
+	border: 3px solid #a8dda8;
+}
+
+#header {
+  background-color: #f3fae2;	
+}
+
+#brand {
+	border: 2px solid white;
+	padding: 0 5px;
+}
+
+.footer{
+	background-color: #a8dda8;
+	clear: both;
+	font-size:12px;
+	height: 20px;
+	color:white;
+	text-align: center;
+	margin:2%;
+}

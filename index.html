@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>New2U</title>
+		
+		<!-- tab icon logo -->
+		<link rel="shortcut icon" href="images/favicon.png">
+
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+		crossorigin="anonymous"></script>
+
+		<!-- AOS css file -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		
+		<!-- Bootstrap css file -->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+		<!-- Custom css file -->
+		<link href="css/IndexStyling.css" rel="stylesheet" type="text/css" /> 
+		<link href="css/Common.css" rel="stylesheet" type="text/css" /> 
+		<link href="css/toTop.css" rel="stylesheet" type="text/css" /> 
+		
+		<!-- Icon css file -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		
+		<!-- Bootstrap js file -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+
+		<!-- AOS js file -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		
+		<!-- Custom js file -->
+		<script src="js/toTop.js" defer></script>
+
+
+	</head>
+	<body>
+<!-- ========================= HEADER CONTENT ========================= -->
+		<header id="header" class="section-header py-4">
+			<div class="container-fluid">
+				<div class="logoside"> 
+					<img src="images/logo.jpg" id="logo" alt="New2U Logo"> 
+				</div>
+			</div>
+		</header> 
+
+<!-- ========================= NAVIGATION BAR CONTENT ========================= -->
+		<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+			<div class="container">
+				<a id="brand" class="navbar-brand" href="Index.html">New2U</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="main_nav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"> <a class="nav-link" href="Index.html">Home </a> </li>
+						<li class="nav-item dropdown">
+							<a class="nav-link  dropdown-toggle" data-toggle="dropdown"> Products </a>
+							<ul class="dropdown-menu dropdown-menu-right">
+								<li><a class="dropdown-item" href="ElectricalAppliances.html"> Electrical Appliances </a></li>
+								<li><a class="dropdown-item" href="FurnitureSub.html"> Furniture </a></li>
+								<li><a class="dropdown-item" href="Beauty&jewellery.html"> Beauty & Jewellery </a></li>
+							</ul>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="contactPage.html"> Contact Us </a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+<!-- ========================= TO TOP BUTTON ========================= -->		
+		<button class= "toTop" onclick = "topFunction()">
+			<i class = "material-icons upArrow">arrow_upward</i>
+		</button>
+
+<!-- ========================= MAIN CONTENT ========================= -->
+		<div class="wrapper">
+			<div id="item" class="item" data-aos="fade-right">
+				<h1> Our Goal </h1>
+				<p> 
+					Here at New2U, we want to try and reduce our carbon footprint on this planet. We aim to try and find new homes for no longer wanted appliances, furniture, and jewellery. Rehoming these items is the most efficient method of recycling them as there is no manufacturing processes involved.
+				</p>
+				<p>
+					At New2U all items seen on site are for free and simply just a passing on of materials from one person to another. We hope that the availability of functioning second-hand products for zero cost will encourage people to try our online store before going out and purchasing a new product that will have some sort emissions trail attached to it.
+				</p>
+				<p>
+					If you have unwanted items, please get in contact with us and we can upload them to our site and try and find them a new home. Oh, and while you're here, why not have a look at some of the item’s others are giving away and see if you have a use for them! If you find something, all you have to do is get in contact with the owner and arrange a collection!
+				</p> 
+			</div>
+			<div id="itemSecond" class="item" data-aos="flip-right">
+				<img src="images/ecoimg.png" id="eco" alt="Eco Image">
+			</div>
+			<div id="itemThird" class="item" data-aos="flip-up">
+				<img src="images/conditionchart.png" id="conditionChart" alt="Product Condition Chart">
+			</div>
+			<div id="itemFourth" class="item" data-aos="zoom-in-left">
+				<div class="subWrapper">
+					<h1>Product Condition</h1>
+					<p>
+						As the products on this site are second hand, each item will be in a different condition to the next. Each item sent into us is reviewed by our team and if we believe it has a condition rating from A to D then we will post it here on the site. If we think your particular product is in a condition lower than this, we will direct you to the most appropriate place to recycle your particular item.
+					</p>
+				</div>
+				<div class="subWrapper">
+					<img src="images/ecobulb.png" id="ecobulb" alt="Eco Bulb Image">
+				</div>
+			</div>
+			<div id="itemLast" class="itemLast" data-aos="fade-up">
+				<iframe id="embeddedVid" src="https://www.youtube.com/embed/VyzQkL1jCAg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+				</iframe>
+			</div>
+		</div><br><br>
+
+<!-- ========================= FOOTER ========================= -->
+		<div class="footer">
+			<i>Copyright &copy; 2020-21</i>.
+		</div>	
+		
+<!-- ========================= SCRIPT ========================= -->
+		<script>
+			AOS.init({
+				duration: 2500,
+			})
+		</script>
+	</body>
+</html>
