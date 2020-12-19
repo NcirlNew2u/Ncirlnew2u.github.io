@@ -88,18 +88,19 @@
 
 	<div class = "contact-form">
 	
-		<form id = "contact-form" method = "post" action = "mailto:best.updated.dealer@gmail.com" >
+		<form id = "contact-form" name = "contact-form" method = "post" action = "mailto:best.updated.dealer@gmail.com" >
 			
 			<h3>Name</h3>
-			<input name = "name" type = "text" id = "name" class = "form-fields" placeholder = "Your Name*" ><br>
+			<input name = "name" type = "text" id = "name" class = "form-fields" placeholder = "Your Name*" maxlength="50" required><br>
 			
 			<h3>Email</h3>
-			<input name = "email" type = "email" id = "email" class = "form-fields" placeholder = "Your Email*"><br>
+			<input name = "email" type = "email" id = "email" class = "form-fields" onkeydown ="validate()" placeholder = "Your Email*" maxlength="50" required>
+			<br><span id = "text"></span><br><br>
 			
 			<h3>Message</h3>
 			<textarea name = "message" class = "form-fields" rows = "6" required> </textarea><br>
 			
-			<input type='submit' class ='submit' value='Submit' onclick	 = "validate()">
+			<input type='submit' class ='submit' value='Submit' onclick = "validate()">
 			<input type='reset' class ='submit' value='Reset'>
 			
 		</form>
