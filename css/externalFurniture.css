@@ -150,6 +150,9 @@ html {
 	font-size: 14px;
 	font-family: "Times New Roman";
 }
+.email a{
+	color:black;
+}
 
 .condition {
 	font-size: 14px;
