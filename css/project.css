@@ -130,7 +130,8 @@ img.product-active{
 }
 
 #btnScrollToTop:active{
-    background: #ffb3b3;
+    background: #a8dda8;
+    opacity: 0.7;
 }
 
 
