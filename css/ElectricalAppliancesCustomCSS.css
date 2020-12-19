@@ -4,7 +4,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f3fae2;
-  background-image: url(../images/backgroundEA.PNG);
+  background: url(../images/backgroundEA.PNG);
 }
 
 /*style for containers*/
