@@ -20,7 +20,44 @@ body {
 }
 
 /*style for different screen sizes*/
-@media screen and (min-width: 1301px) {
+@media screen and (max-width: 999px) {
+	.item {
+	  clear: both;
+	  margin-bottom: 2%;
+	  display: inline-block;
+	  float: left;
+	  width: 100%;
+	  padding: 2% 2%;
+	  background-color: #f3fae2;
+	  text-align: center;
+	  color: #254d65;
+	}
+
+	.itemLast {
+		width: 80%;
+		height: 456px;
+		margin: 0 10%;
+		margin-bottom: 5%;
+		border: 3px solid #a8dda8;
+		position: relative;
+		display: inline-block;
+		float: left;
+		background-color: #f3fae2;
+		text-align: center;
+		color: #FFF;
+	}
+
+	h1 {
+		font-size: 4.5vw;
+	}
+
+	p {
+		font-size: 2vw;
+	}
+}
+
+
+@media screen and (min-width: 1000px) {
 	.item {
 		position: relative;
 		display: inline-block;
@@ -38,7 +75,7 @@ body {
 		width: 60%;
 		height: 456px;
 		margin: 0 20%;
-		margin-top: -5%;
+		margin-top: -10%;
 		margin-bottom: 5%;
 		border: 3px solid #a8dda8;
 		position: relative;
@@ -50,15 +87,15 @@ body {
 	}
 
 	#itemSecond {
-	  margin-top: 15%;
+	  margin-top: 25%;
 	}
 
 	#itemThird {
-	  margin-top: -10%;
+	  margin-top: -25%;
 	}
 
 	#itemFourth {
-	  margin-top: -0.5%;
+	  margin-top: -15%;
 	}
 	
 	h1 {
@@ -70,43 +107,9 @@ body {
 	}
 }
 
-@media screen and (max-width: 1300px) {
-	.item {
-	  clear: both;
-	  margin-bottom: 10%;
-	  display: inline-block;
-	  float: left;
-	  width: 100%;
-	  height: 460px;
-	  padding: 2% 2%;
-	  background-color: #f3fae2;
-	  text-align: center;
-	  color: #254d65;
-	}
-	
-	.itemLast {
-		width: 80%;
-		height: 456px;
-		margin: 0 10%;
-		margin-bottom: 5%;
-		border: 3px solid #a8dda8;
-		position: relative;
-		display: inline-block;
-		float: left;
-		background-color: #f3fae2;
-		text-align: center;
-		color: #FFF;
-	}
-	
-	h1 {
-		font-size: 4.5vw;
-	}
 
-	p {
-		font-size: 2vw;
-	}
-	
-}
+
+
 
 /*style for paragraph regardless of screen size*/
 p {
